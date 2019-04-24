@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Get Video From Playlist Or Channel</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="form-group">
+                    <label for="pll">Playlist:</label>
+                    <input type="text" class="form-control" id="pll"
+                        placeholder="https://www.youtube.com/playlist?list=PLSks4KnOq-euiBnkDZ0ekFsdS9ywFIDPd">
+                </div>
+            </div>
+            <div class="col-md-2" style="text-align:center;">
+                OR
+            </div>
+            <div class="col-md-5">
+                <div class="form-group">
+                    <label for="channel">Channel:</label>
+                    <input type="text" class="form-control" id="channel"
+                        placeholder="https://www.youtube.com/channel/UCbQFf_LKQcgCZW1LoVICnZg">
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-success" id="get">GET VIDEO</button>
+    </div>
+    <hr>
+    <div class="container">
+        <p>Results</p>
+        <div class="col-md-6">
+            1
+        </div>
+        <div class="col-md-6">
+            2
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
